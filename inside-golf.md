@@ -1,7 +1,7 @@
 ---
+title: Inside Golf
 permalink: /ig/index.html
 layout: inside-golf
-
 ---
 
 
