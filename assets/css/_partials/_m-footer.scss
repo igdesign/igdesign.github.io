@@ -1,0 +1,8 @@
+.footer {
+  position: relative;
+
+  &__copyright {
+    @extend %zero;
+    font-size: $type--small;
+  }
+}

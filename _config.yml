@@ -1,0 +1,26 @@
+# Github Pages
+safe: true
+lsi:  false
+pygments: true
+markdown: kramdown
+
+# Site Details
+version:      '14.0.1'
+siteName:     'iG Design & Publishing'
+name:         'igdesign'
+keywords:     'comma, separated, keywords'
+description:  'short description of website'
+publisher:    '//igdesign.github.io'
+twitter:      '@inside_golf'
+siteUrl:      '//igdesign.ca'
+siteUrlShort: '//igdesign.ca'
+siteEmail:    'greg@igdesign.ca'
+siteAnalytics: 'UA-210752-15'
+siteColor:    '#b00'
+copyright:    'Copyright (C) 2014 iG Design &amp; Publishing'
+language:     'en-GB'
+license:      'v2.0. http://www.apache.org/licenses/LICENSE-2.0'
+creatorName:  'Gregory Daynes'
+creatorTwitter: '@gregdayes'
+creatorSite:  '//gregdaynes.github.io'
+twitterCard:  'summary'

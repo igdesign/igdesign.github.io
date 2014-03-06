@@ -1,0 +1,19 @@
+.footer-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  &__list {
+    @extend %clean-list;
+  }
+
+  &__item {
+    display: inline-block;
+  }
+}
+
+.footer-nav--small {
+  @extend .footer-nav;
+
+  font-size: $type--small;
+}
