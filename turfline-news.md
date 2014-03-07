@@ -38,8 +38,20 @@ layout: turfline-news
 
 
 
+</section> <!-- !magazines__features -->
 
 
+
+
+
+
+
+
+
+
+<section class="magazines__ad-rates" markdown="1">
+
+## Ad Rates
 
 <div class="table-wrapper" markdown="1">
 
@@ -131,3 +143,62 @@ layout: turfline-news
 </div> <!-- /table-wrapper -->
 
 </section> <!-- /ad-rates -->
+
+
+
+
+<section class="magazines__digital" markdown="1">
+
+## Digital Magazines
+
+Each issue of Turfline News is released as a digital version alongside of the print version.
+
+<div class="digital__wrapper" markdown="1">
+
+[!['December/January 2012'](/assets/img/tln/covers/tln12-dj.jpg)](http://read.dmtmag.com/issue/50980)
+
+[!['March/April 2012'](/assets/img/tln/covers/tln12-ma.jpg)](http://read.dmtmag.com/i/62071)
+
+[!['June/July 2012'](/assets/img/tln/covers/tln12-jj.jpg)](http://read.dmtmag.com/i/73811)
+
+[!['September/October 2012'](/assets/img/tln/covers/tln12-so.jpg)](http://read.dmtmag.com/i/82830)
+
+[!['December/January 2013'](/assets/img/tln/covers/tln13-dj.jpg)](#)
+
+[!['March/April 2013'](/assets/img/tln/covers/tln13-ma.jpg)](#)
+
+[!['June/July 2013'](/assets/img/tln/covers/tln13-jj.jpg)](#)
+
+[!['September/October 2013'](/assets/img/tln/covers/tln13-so.jpg)](#)
+
+</div> <!-- /digi-mags__wrapper -->
+
+</section> <!-- /digital__wrapper -->
+
+
+
+
+
+
+</article> <!-- /magazines -->
+
+
+
+
+
+
+
+<article class="website" markdown="1">
+
+# Online Rate Card
+
+
+
+
+</article> <!-- website -->
+
+
+
+
+
+

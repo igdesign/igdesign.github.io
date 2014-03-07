@@ -31,7 +31,7 @@ layout: inside-golf
 _Inside Golf delivers more Western Canadian Golf news than any other publication_
 
 Local Content
-: Five different zone editions from Vancouver Island to Manitoba. Which means strong local reader relationship.
+: Six different zone editions from Vancouver Island to Manitoba. Which means strong local reader relationship.
 
 Provincial Content
 : Contributions from provincial amateur and professional organizations. Strengthens content depth and credibility.
@@ -81,7 +81,7 @@ _Inside Golf reaches the 25% of golfers who play 75% of the rounds._
 + 71% are considering a club purchase in the next year
 + 72% play twice or more a week
 + 59% play the majority of their golf at multiple courses
-+ 98% are planning some form of golf vacation in 2012
++ 98% are planning some form of golf vacation this year
 + 89% choose hotels or resorts for accommodations during golf vacations
 + Over 25% of non-club members plan to join within 3 years
 
@@ -116,7 +116,7 @@ Directed Circulation
 ### Special Directory & Travel Issue
 _Reach Golfers across Canada through Canada's most complete golf course atlas and travel magazine_
 
-Inside Golf's Canadian Golf Traveller has information on every course from BC to Newfoundland as well as travel features from across Canada and major international destinations around the world. Targeted newsstand circulation is joined with directed distribution. _Canada‘s biggest Golf publication… 170+ pages!_
+The Inside Golf Travel edition has golf course information and travel features from across Canada and major international destinations around the world. Targeted newsstand circulation is joined with directed distribution. _Canada‘s biggest Golf publication… 170+ pages!_
 
 </div>
 
@@ -321,15 +321,21 @@ Inside Golf's Canadian Golf Traveller has information on every course from BC to
 
 ## Digital Magazines
 
-Each issue of Inside Golf is release as a digital version along side of the print version.
+Each issue of Inside Golf is released as a digital version along side of the print version.
 
 <div class="digital__wrapper" markdown="1">
 
-[!['Canadian Golf Traveller 2012'](http://igdesign.ca/assets/img/ig/cgd_2012.jpg)](http://read.dmtmag.com/i/78601)
+[!['Canadian Golf 2012 - Traveller'](/assets/img/ig/covers/ig12-traveller.jpg)](http://read.dmtmag.com/i/78601)
 
-[!['Inside Golf - Spring 2012'](http://igdesign.ca/assets/img/ig/spring_2012.jpg)](http://read.dmtmag.com/i/68546)
+[!['Inside Golf 2012 - Spring'](/assets/img/ig/covers/ig12-spring.jpg)](http://read.dmtmag.com/i/68546)
 
-[!['Inside Golf - Fall 2012'](http://igdesign.ca/assets/img/ig/fall_2012.jpg)](http://read.dmtmag.com/i/68546)
+[!['Inside Golf 2012 - Spring'](/assets/img/ig/covers/ig12-fall.jpg)](http://read.dmtmag.com/i/68546)
+
+[!['Inside Golf 2013 - Traveller'](/assets/img/ig/covers/ig13-traveller.jpg)](#)
+
+[!['Inside Golf 2013 - Spring'](/assets/img/ig/covers/ig13-spring.jpg)](#)
+
+[!['Inside Golf 2013 - Fall'](/assets/img/ig/covers/ig13-fall.jpg)](#)
 
 </div> <!-- /digi-mags__wrapper -->
 
@@ -480,9 +486,9 @@ _Statistics for 12-month period ending August 31, 2012_
 <div class="features__block" markdown="1">
 
 ### Exponential Growth
-_visits to insidegolf.ca have more than doubled during the 2012 Golf Season_
+_visits to insidegolf.ca have more than doubled during the last Golf Season_
 
-Inside Golf has seen month over month increases in 2012 that has projections of more than 20,000 visits per month by mid 2013
+Inside Golf has seen month over month increases, that has projections of more than 20,000 visits per month by mid year
 
 </div>
 
