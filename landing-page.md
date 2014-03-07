@@ -6,5 +6,3 @@ published: true
 ---
 
 # {{ site.siteName }}
-
-Hello World
