@@ -195,6 +195,205 @@ Each issue of Turfline News is released as a digital version alongside of the pr
 
 
 
+
+<section class="website" markdown="1">
+
+
+!['Advertising positions on website'](/assets/img/tln/wcta-online.png)
+
+## Website
+
+
+Ads are purchased for 12 month periods starting December 1st of each year. Ads purchased after this date will be prorated to finish on November 30th
+
+Category 1
+: seen on 50%+ of page loads
+
+Category 2
+: seen on 33% of page loads
+
+Category 3
+: seen on 25%+ of page loads
+
+
+
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Shape</th>
+      <th rowspan="2">Size</th>
+      <th rowspan="2">Name</th>
+      <th colspan="3">Cost Per Year</th>
+    </tr>
+    <tr>
+      <th>Category 1</th>
+      <th>Category 2</th>
+      <th>Category 3</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>A</td>
+      <td>728px X 90px</td>
+      <td>Leaderboard</td>
+      <td>N/A</td>
+      <td>$1100</td>
+      <td>$800</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>300px X 250px</td>
+      <td>Medium Rectangle</td>
+      <td>$900</td>
+      <td>$600</td>
+      <td>$400</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>468px X 60px</td>
+      <td>Full Banner</td>
+      <td>$800</td>
+      <td>$500</td>
+      <td>$300</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>120px X 240px</td>
+      <td>Skyscraper</td>
+      <td>$500</td>
+      <td>$400</td>
+      <td>$250</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td>120px X 90px</td>
+      <td>Button</td>
+      <td>$300</td>
+      <td>$200</td>
+      <td>$150</td>
+    </tr>
+  </tbody>
+
+  <tfoot>
+    <tr>
+      <td colspan="6">
+        Ad positioning is random
+      </td>
+    </tr>
+  </tfoot>
+</table>
+
+
+
+</section> <!-- /website -->
+
+
+
+
+
+
+
+
+<section class="newsletter" markdown="1">
+
+
+!['Advertising positions on newsletter'](/assets/img/tln/wcta-newsletter-truncated.png)
+
+## Newsletter
+
+
+Newsletters are sent out 24 times a year (approximately every two weeks) to more than 1000 subscribers. A further 24 to 30 special announcement newsletters are sent out as well (e.g. job postings, event announcements).
+
+Ads may be purchased in blocks for periods ranging from 3 - 12 months.
+
+Circulation:
++ Newsletters are sent out to more than 1000 subscribers. Open rates are well in excess of 50%
+
+Terms:
++ Rates plus taxes
++ Full payment on contract
++ For all ads, print and online design charges are extra
++ Guaranteed position where applicable plus 50%
+
+
+
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Shape</th>
+      <th rowspan="2">Size</th>
+      <th rowspan="2">Name</th>
+      <th colspan="3">Cost</th>
+    </tr>
+    <tr>
+      <th>12 Months</th>
+      <th>6 Months</th>
+      <th>3 Months</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>A</td>
+      <td>728px X 90px</td>
+      <td>Leaderboard</td>
+      <td>$1000</td>
+      <td>$650</td>
+      <td>$500</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>300px X 250px</td>
+      <td>Medium Rectangle</td>
+      <td>$600</td>
+      <td>$400</td>
+      <td>$300</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>468px X 60px</td>
+      <td>Full Banner</td>
+      <td>$400</td>
+      <td>$300</td>
+      <td>$200</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>120px X 240px</td>
+      <td>Skyscraper</td>
+      <td>$350</td>
+      <td>$300</td>
+      <td>$250</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td>120px X 90px</td>
+      <td>Button</td>
+      <td>$200</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+  </tbody>
+
+  <tfoot>
+    <tr>
+      <td colspan="6">
+        Ad positioning is random
+      </td>
+    </tr>
+  </tfoot>
+</table>
+
+
+
+</section> <!-- /newsletter -->
+
+
+
+
 </article> <!-- website -->
 
 

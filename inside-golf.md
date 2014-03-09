@@ -116,7 +116,7 @@ Directed Circulation
 ### Special Directory & Travel Issue
 _Reach Golfers across Canada through Canada's most complete golf course atlas and travel magazine_
 
-The Inside Golf Travel edition has golf course information and travel features from across Canada and major international destinations around the world. Targeted newsstand circulation is joined with directed distribution. _Canada‘s biggest Golf publication… 170+ pages!_
+The Inside Golf Travel edition has golf course information and travel features from across Canada and major international destinations around the world. Targeted newsstand circulation is joined with directed distribution. _Canada?s biggest Golf publication... 170+ pages!_
 
 </div>
 
@@ -198,7 +198,7 @@ The Inside Golf Travel edition has golf course information and travel features f
       <td>1398</td>
     </tr>
     <tr>
-      <td>⅔ Page</td>
+      <td>? Page</td>
       <td>2198</td>
       <td>1995</td>
       <td>-</td>
@@ -212,7 +212,7 @@ The Inside Golf Travel edition has golf course information and travel features f
       <td>-</td>
     </tr>
     <tr>
-      <td>½ Page</td>
+      <td>1/2 Page</td>
       <td>1641</td>
       <td>1477</td>
       <td class="promo">999 (40% off)</td>
@@ -226,7 +226,7 @@ The Inside Golf Travel edition has golf course information and travel features f
       <td>1249</td>
     </tr>
     <tr>
-      <td>⅓ Page</td>
+      <td>? Page</td>
       <td>1442</td>
       <td>1298</td>
       <td class="promo">699 (50% off)</td>
@@ -240,7 +240,7 @@ The Inside Golf Travel edition has golf course information and travel features f
       <td>1098</td>
     </tr>
     <tr>
-      <td>¼ Page</td>
+      <td>1/4 Page</td>
       <td>1340</td>
       <td>1205</td>
       <td class="promo">599 (55% off)</td>
@@ -254,7 +254,7 @@ The Inside Golf Travel edition has golf course information and travel features f
       <td>818</td>
     </tr>
     <tr>
-      <td>⅙ Page</td>
+      <td>? Page</td>
       <td>1185</td>
       <td>1066</td>
       <td class="promo">499 (60% off)</td>
@@ -268,7 +268,7 @@ The Inside Golf Travel edition has golf course information and travel features f
       <td>598</td>
     </tr>
     <tr>
-      <td>⅛ page</td>
+      <td>? page</td>
       <td>1025</td>
       <td>982</td>
       <td class="promo">399 (60% off)</td>
@@ -282,7 +282,7 @@ The Inside Golf Travel edition has golf course information and travel features f
       <td>287</td>
     </tr>
     <tr>
-      <td><sup>1</sup>⁄<sub>12</sub> page</td>
+      <td><sup>1</sup>?<sub>12</sub> page</td>
       <td>880</td>
       <td>840</td>
       <td class="promo">299 (65% off)</td>
@@ -403,7 +403,7 @@ _insidegolf.ca ads have an average click through rate of more than 0.45%_
 
 Several ads on insidegolf.ca have a consistent click through rate of more than 0.45% based on more than half a million impressions over a six month period.
 
-Ads find a targeted and interested audience on insidegolf.ca… important for the value of  impressions not just click throughs.
+Ads find a targeted and interested audience on insidegolf.ca... important for the value of  impressions not just click throughs.
 
 </div>
 
