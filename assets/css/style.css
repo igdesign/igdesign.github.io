@@ -826,10 +826,9 @@ dd {
 
 body {
   width: 80%;
-  margin: 10% auto 2%;
   max-width: 1440px;
-  box-sizing: border-box;
-}
+  margin: 10% auto 2%;
+  box-sizing: border-box; }
 
 img {
   max-width: 100%; }
