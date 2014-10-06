@@ -1,0 +1,50 @@
+---
+layout: default
+permalink: /iggd/index.html
+class: iggd
+---
+
+<article>
+
+    <section>
+        <h1>International Golfer's Guide</h1>
+
+        {% capture content %}{% include_relative sections/iggd/intro.markdown %}{% endcapture %}
+        {{ content | markdownify }}
+
+    </section>
+
+
+    <section>
+        <h1>Score Cards</h1>
+
+        <div>
+            {% capture content %}{% include_relative sections/iggd/8-6.markdown %}{% endcapture %}
+            {{ content | markdownify }}
+        </div>
+
+        <div>
+            {% capture content %}{% include_relative sections/iggd/6-12.markdown %}{% endcapture %}
+            {{ content | markdownify }}
+        </div>
+
+    </section>
+
+
+    <section>
+        <h1>Testimonials</h1>
+
+        {% capture content %}{% include_relative sections/iggd/testimonials.markdown %}{% endcapture %}
+        {{ content | markdownify }}
+
+    </section>
+
+
+    <section>
+        <h1>Options Included at No Charge</h1>
+
+        {% capture content %}{% include_relative sections/iggd/options.markdown %}{% endcapture %}
+        {{ content | markdownify }}
+
+
+</article>

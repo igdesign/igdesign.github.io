@@ -1,2 +1,5 @@
+*.scssc
+bower_components
+*.map
+node_modules
 _site
-*.sass-cache*

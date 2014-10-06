@@ -1,0 +1,38 @@
+---
+layout: default
+permalink: /ig/index.html
+class: ig
+---
+
+
+
+<article>
+
+    <section>
+        <h1>Magazines</h1>
+
+        {% capture content %}{% include_relative sections/ig/features-benefits.markdown %}{% endcapture %}
+        {{ content | markdownify }}
+
+
+        {% capture content %}{% include_relative sections/ig/magazine-ad-rates.html %}{% endcapture %}
+        {{ content }}
+
+
+        {% capture content %}{% include_relative sections/ig/digital-magazines.markdown %}{% endcapture %}
+        {{ content | markdownify }}
+
+    </section>
+
+    <section>
+        <h1>Website</h1>
+
+        {% capture content %}{% include_relative sections/ig/website-features.markdown %}{% endcapture %}
+        {{ content | markdownify }}
+
+
+        {% capture content %}{% include_relative sections/ig/website-ad-rates.html %}{% endcapture %}
+        {{ content }}
+
+    </section>
+</article>
