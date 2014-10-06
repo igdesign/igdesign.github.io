@@ -1,16 +1,23 @@
----
----
+<!DOCTYPE html>
+<html lang="en-GB">
 
-<!doctype HTML>
-{% include partials/license.html %}
-{% include partials/conditional.html %}
-{% include head/head.html %}
-<body>
-{% include block/nav.html %}
-{% include block/header.html %}
+  {% include head.html %}
 
-{{content}}
+  <body class="{{ page.class }}">
 
-{% include block/footer.html %}
-{% include scripts.html %}
-{% include analytics.html %}
+    {% include site-nav.html %}
+
+    {% include page-head.html %}
+
+    <div class="main">
+        {{ content }}
+    </div>
+
+    {% include page-foot.html %}
+
+    <!-- Scripts -->
+    <script src="/assets/js/site-nav.js"></script>
+
+  </body>
+
+</html>

@@ -1,26 +1,33 @@
-# Github Pages
-safe: true
-lsi:  false
-pygments: true
-markdown: kramdown
+# GITHUB OVERRIDES
+# can't change these
+# safe: true
+# lsi: false
+# github: [Repository metadata]
+source: '.'
+exclude: ['node_modules', 'grunt', 'Gemfile', 'Gemfile.lock', 'package.json', '*.scss', '*.coffee',]
 
-# Site Details
-version:      '14.0.1'
-siteName:     'iG Design & Publishing'
-name:         'igdesign'
-keywords:     'comma, separated, keywords'
-description:  'short description of website'
-publisher:    '//igdesign.github.io'
-twitter:      '@inside_golf'
-siteUrl:      '//igdesign.ca'
-siteUrlShort: '//igdesign.ca'
-siteEmail:    'greg@igdesign.ca'
-siteAnalytics: 'UA-210752-15'
-siteColor:    '#b00'
-copyright:    'Copyright (C) 2014 iG Design &amp; Publishing'
-language:     'en-GB'
-license:      'v2.0. http://www.apache.org/licenses/LICENSE-2.0'
-creatorName:  'Gregory Daynes'
-creatorTwitter: '@gregdayes'
-creatorSite:  '//gregdaynes.github.io'
-twitterCard:  'summary'
+# Build settings
+markdown: kramdown
+highlighter: pygments
+
+# Site settings
+title: 'iG Design & Publishing'
+email: 'production@igdesign.ca'
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://igdesign.github.io" # the base hostname & protocol for your site
+
+
+name: "iG Design & Publishing"
+tagline: ""
+
+address: 'PO Box 248'
+city: 'Duncan'
+province: 'BC'
+postal: 'V9L 3X3'
+
+location: '60 Ingram St. Suite #2'
+location-postal: 'V9L 1N7'

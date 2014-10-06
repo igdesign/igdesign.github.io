@@ -1,0 +1,30 @@
+default:
+  - 'css'
+  - 'js'
+  - 'jekyll'
+  - 'watch'
+
+css:
+  - 'sass'
+  - 'autoprefixer'
+
+js:
+  - 'coffeelint'
+  - 'coffee'
+
+
+
+
+
+publish:
+  - 'css_pub'
+  - 'js_pub'
+
+css_pub:
+  - 'css'
+  - 'cssmin'
+
+
+js_pub:
+  - 'js'
+  - 'uglify'

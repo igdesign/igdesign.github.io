@@ -1,0 +1,66 @@
+$color--text: black;
+$color--inverse-text: white;
+
+$color--primary: #356993;
+$color--primary-light: #1D5584;
+$color--primary-dark: #0F4068;
+
+$color--secondary: #E33F32;
+$color--secondary-light: #356993;
+$color--secondary-dark: #CE3B2F;
+
+$color--paypal: #ffb900;
+$color--paypal-light: #179bd7;
+$color--paypal-dark: #253b80;
+
+$gutter--normal: 20px;
+$gutter--narrow: 10px;
+$gutter--skinny:  5px;
+
+$padding--vertical:   10px;
+$padding--horizontal: 20px;
+
+// Font awesome path
+$fa-font-path: "../fontawesome/fonts" !default;
+
+$font-weight: 200;
+
+$font-size--huge:  24.75px;
+$font-size--large: 21px;
+$font-size--big: 16.5px;
+$font-size: 14px;
+$font-size--small: 11px;
+$font-size--tiny: 9.333px;
+$font-size--micro: 7.333px;
+
+$font--sans-serif: 'Open Sans', sans-serif;
+$font--serif: 'Merriweather', serif;
+
+$line-height: 1.5;
+
+$border-radius: 4px;
+
+$small:  767px; // max-size
+$medium: 768px; // min-size
+$large: 1024px; // min-size
+$huge:  1440px; // min-size
+
+$size--touch-target: 44px;
+
+// Grids
+$responsive: true;
+$mobile-first: true;
+$gutter: $gutter--normal;
+$use-silent-classes: true;
+$push: true;
+$pull: true;
+$use-markup-fix: true;
+$breakpoints: (
+    'small' '(max-width: 767px)',
+    'medium' '(min-width: 768px)',
+    'large' '(min-width: 1024px)',
+    'huge' '(min-width: 1440px)'
+);
+$breakpoint-has-widths: ('small', 'medium', 'large', 'huge');
+$breakpoint-has-push: ('small', 'medium', 'large', 'huge');
+$breakpoint-has-pull: ('small', 'medium', 'large', 'huge');

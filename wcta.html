@@ -1,0 +1,51 @@
+---
+layout: default
+permalink: /wcta/index.html
+class: wcta
+---
+
+<article>
+
+    <section>
+        <h1>Turf Line News Magazine Rate Card</h1>
+
+        {% capture content %}{% include_relative sections/wcta/magazine-ad-rates.html %}{% endcapture %}
+        {{ content }}
+
+
+        <aside>
+
+            {% capture content %}{% include_relative sections/wcta/magazine-side-notes.markdown %}{% endcapture %}
+            {{ content | markdownify }}
+
+        </aside>
+
+        {% capture content %}{% include_relative sections/wcta/digital-magazines.markdown %}{% endcapture %}
+        {{ content | markdownify }}
+
+    </section>
+
+
+    <h1>WCTA Online</h1>
+
+
+    <section>
+        {% capture content %}{% include_relative sections/wcta/website.markdown %}{% endcapture %}
+        {{ content | markdownify }}
+
+        {% capture content %}{% include_relative sections/wcta/website-rates.html %}{% endcapture %}
+        {{ content }}
+    </section>
+
+
+    <section>
+        {% capture content %}{% include_relative sections/wcta/newsletter.markdown %}{% endcapture %}
+        {{ content | markdownify }}
+
+        {% capture content %}{% include_relative sections/wcta/newsletter-rates.html %}{% endcapture %}
+        {{ content }}
+    </section>
+
+
+
+</article>

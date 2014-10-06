@@ -1,0 +1,21 @@
+---
+layout: default
+permalink: /specs/index.html
+class: specs
+---
+
+<article>
+    <h1>Ad Specs</h1>
+
+    {% capture content %}{% include_relative sections/specs/print-media.markdown %}{% endcapture %}
+    {{ content | markdownify }}
+
+
+    {% capture content %}{% include_relative sections/specs/online.markdown %}{% endcapture %}
+    {{ content | markdownify }}
+
+    <h2>Ad Dimensions</h2>
+    {% capture content %}{% include_relative sections/specs/sizes.markdown %}{% endcapture %}
+    {{ content | markdownify }}
+
+</article>

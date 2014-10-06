@@ -1,0 +1,69 @@
+//
+// Buttons
+// --------------------------------------------------
+.button {
+    color: $color--inverse-text;
+    background-image: none;
+    background-color: $color--primary;
+    border-radius: $border-radius;
+    display: inline-block;
+    margin-bottom: 0; // For input.btn
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: $padding--vertical $padding--horizontal;
+    line-height: $line-height;
+    border: 1px solid $color--primary-dark;
+
+    &:active,
+    &:focus {
+        @include tab-focus();
+    }
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+
+    &:active {
+        outline: 0;
+        box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+    }
+}
+
+.button--small {
+    padding: $padding--vertical / 2 $padding--horizontal / 2;
+    font-size: $font-size--small;
+}
+
+.button--large {
+    padding: $padding--vertical $padding--horizontal;
+    font-size: $font-size--large;
+}
+
+.button--paypal {
+    background-color: $color--paypal;
+    border-color: darken($color--paypal, 1%);
+    text-shadow: 0 1px 1px darken($color--paypal, 3%);
+
+    .paypal--light {
+        color: $color--paypal-light;
+        font-weight: 800;
+        font-style: italic;
+        text-shadow: none;
+    }
+
+    .paypal--dark {
+        color: $color--paypal-dark;
+        font-weight: 800;
+        font-style: italic;
+        text-shadow: none;
+    }
+}
+
+
+.button--secondary {
+    background-color: $color--secondary;
+    border-color: $color--secondary-dark;
+}

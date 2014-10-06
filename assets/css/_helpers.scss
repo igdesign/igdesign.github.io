@@ -1,0 +1,19 @@
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.hidden-xs {
+    @include media-query($small, max, width, screen) {
+        display: none !important;
+    }
+}
+
+.visible-xs {
+    @include media-query($medium, min, width, screen) {
+        display: none !important;
+    }
+}
