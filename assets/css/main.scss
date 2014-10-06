@@ -1,0 +1,34 @@
+$media-queries-supported: true;
+
+@import "normalize";
+@import "variables";
+@import "../fontawesome/scss/font-awesome";
+@import "mixins";
+@import "helpers";
+@import "csswizardry-grids";
+@import "buttons";
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,400italic|Open+Sans:300,700,400);
+
+
+h1 {
+    font-size: $font-size--huge;
+}
+
+body {
+    font-weight: $font-weight;
+    font-size: $font-size;
+    height: 100%;
+    font-family: $font--sans-serif;
+    color: $color--text;
+    margin: 0;
+    padding: 0;
+}
+
+
+.site-wrapper {
+    @include media-query($large, min, width, screen) {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}

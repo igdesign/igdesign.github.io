@@ -1,0 +1,45 @@
+@mixin tab-focus() {
+  // Default
+  outline: thin dotted;
+  // WebKit
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+@mixin text-hide() {
+  font: #{0/0} a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+
+@mixin transform3d($x: 0, $y: 0, $z: 0) {
+    -webkit-transform: translate3d($x, $y, $z);
+       -moz-transform: translate3d($x, $y, $z);
+            transform: translate3d($x, $y, $z);
+}
+
+
+@mixin media-query($unit, $query1: min, $query2: width, $target: "") {
+	$mqtarget: "";
+	// Check if media queries are supported
+	@if $media-queries-supported == true {
+		@if $target != "" {
+			@media #{$target} and (#{$query1}-#{$query2}: #{$unit}) {
+				@content;
+			}
+		}
+		@else {
+			@media (#{$query1}-#{$query2}: #{$unit}) {
+				@content;
+			}
+		}
+	}
+	@else {
+		#{$no-mq-classname} & {
+			@content;
+		}
+	}
+}
