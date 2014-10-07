@@ -1,0 +1,12 @@
+.site-foot {
+    background-color: $color--lighter;
+    padding: $gutter--normal 0;
+    margin-top: $gutter--normal;
+}
+
+    .site-copyright {
+        color: $color--neutral;
+        text-align: center;
+        padding: $gutter--normal 0;
+        font-size: $font-size--small;
+    }

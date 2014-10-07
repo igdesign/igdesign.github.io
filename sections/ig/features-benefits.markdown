@@ -1,5 +1,8 @@
 ## Features & Benefits
 
+<div class="section-content--columns" markdown="1">
+
+<div class="section-content__item" markdown="1">
 ### The strongest read across the west <small>Inside Golf delivers more Western Canadian Golf news than any other publication</small>
 
 Local Content
@@ -14,6 +17,9 @@ Western Canada Content
 National and International Content
 : Stories about Canadians and top golf stars from across the country and around the world. IG is on the story, on every stage.
 
+</div>
+
+<div class="section-content__item" markdown="1">
 
 ### Effective, Frequent Exposure <small>Inside Golf delivers excellent rate card value</small>
 
@@ -26,6 +32,9 @@ Frequent Exposure
 Innovative Advertising Programs
 : Zone editions provide opportunities and added value for every objective and budget. Our Account Managers think "outside the box."
 
+</div>
+
+<div class="section-content__item" markdown="1">
 
 ### Reader Demographics <small>Inside Golf reaches the 25% of golfers who play 75% of the rounds.</small>
 
@@ -40,6 +49,9 @@ Innovative Advertising Programs
 - 89% choose hotels or resorts for accommodations during golf vacations
 - Over 25% of non-club members plan to join within 3 years
 
+</div>
+
+<div class="section-content__item" markdown="1">
 
 ### Unmatched Circulation <small>Inside Golf delivers more copies to a wider distribution</small>
 
@@ -52,7 +64,14 @@ Depth Of Circulation
 Directed Circulation
 : Over 400 copies are directed right to the desks of key players in Canadian Golf across the country.
 
+</div>
+
+<div class="section-content__item" markdown="1">
 
 ### Special Directory & Travel Issue <small>Reach Golfers across Canada through Canada's most complete golf course atlas and travel magazine</small>
 
 Inside Golf's Canadian Golf Traveller has information on every course from BC to Newfoundland as well as travel features from across Canada and major international destinations around the world. Targeted newsstand circulation is joined with directed distribution. _Canada's biggest Golf publication… 170+ pages!_
+
+</div>
+
+</div>

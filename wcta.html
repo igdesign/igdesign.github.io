@@ -9,9 +9,10 @@ class: wcta
     <section>
         <h1>Turf Line News Magazine Rate Card</h1>
 
-        {% capture content %}{% include_relative sections/wcta/magazine-ad-rates.html %}{% endcapture %}
-        {{ content }}
-
+        <div class="price-table">
+            {% capture content %}{% include_relative sections/wcta/magazine-ad-rates.html %}{% endcapture %}
+            {{ content }}
+        </div>
 
         <aside>
 
@@ -20,8 +21,10 @@ class: wcta
 
         </aside>
 
-        {% capture content %}{% include_relative sections/wcta/digital-magazines.markdown %}{% endcapture %}
-        {{ content | markdownify }}
+        <div>
+            {% capture content %}{% include_relative sections/wcta/digital-magazines.markdown %}{% endcapture %}
+            {{ content | markdownify }}
+        </div>
 
     </section>
 

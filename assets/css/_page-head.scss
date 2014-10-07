@@ -1,0 +1,59 @@
+.site-head {
+    background-color: $color--darkest;
+    color: $color--lightest;
+    height: 220px;
+    text-align: center;
+    position: relative;
+
+    @include media-query($medium, min, width, screen) {
+        height: 300px;
+    }
+}
+
+    .site-head__bg {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .site-logo {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+
+        height: 180px;
+        width: 100%;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        @include transform3d(-50%,-50%,0);
+    }
+
+    .site-name {
+        margin: 0;
+
+        @include text-hide();
+    }
+
+    .site-tagline {
+
+        @extend .hidden-xs;
+
+        margin: 0;
+        font-size: $font-size--big;
+        font-weight: 400;
+        text-shadow: 0 1px 5px rgba(0,0,0,0.66),
+                     0 1px 2px rgba(0,0,0,0.33);
+        position: absolute;
+        bottom: $gutter--skinny;
+        left: 50%;
+
+        @include transform3d(-50%,0,0);
+    }

@@ -1,0 +1,180 @@
+article {
+    padding: 0 $gutter--narrow;
+
+    @include media-query($medium, min, width) {
+        padding: 0 $gutter--normal;
+    }
+}
+
+    section {
+
+    }
+
+        .section-content {
+
+        }
+
+            .section-content--columns {
+
+                @include media-query($medium, min, width) {
+                    -webkit-column-count: 2;
+                       -moz-column-count: 2;
+                         -o-column-count: 2;
+                            column-count: 2;
+                            column-rule: 1px outset $color--border;
+                            column-gap: $gutter--normal;
+                }
+
+            }
+
+
+                .section-content__item {
+                    -webkit-column-break-inside: avoid;
+                       -moz-column-break-inside: avoid;
+                         -o-column-break-inside: avoid;
+                            column-break-inside: avoid;
+
+                            border-bottom: 1px solid $color--border;
+                            margin-bottom: $gutter--narrow;
+
+                }
+
+                .section-content__item:last-of-type {
+                    column-span: all;
+                }
+
+
+
+
+        h1 {
+            text-align: center;
+            border-bottom: 1px solid $color--border;
+            margin-top: $gutter--normal * 2;
+        }
+
+        h2 {
+
+        }
+
+            h2 small {
+                display: block;
+                font-size: $font-size;
+                font-weight: 200;
+            }
+
+        h3 {
+            margin-bottom: $gutter--narrow;
+            margin-top: 0;
+        }
+
+            h3 small {
+                display: block;
+                font-size: $font-size;
+                font-weight: 200;
+            }
+
+        dl {
+
+        }
+
+            dt {
+                margin-top: $gutter--narrow;
+                font-weight: 400;
+            }
+
+            dd {
+                margin-left: 0;
+            }
+
+        ul {
+            padding-left: $gutter--normal + $gutter--narrow;
+        }
+
+            li {
+
+            }
+
+
+        .table-wrapper {
+            width: 100%;
+            overflow-x: scroll;
+
+        }
+
+            table {
+                width: 100%;
+                min-width: $medium - ($gutter--normal * 2);
+            }
+                thead {
+
+                }
+
+                tbody {
+
+                }
+
+                tfoot {
+
+                }
+
+                tr {
+                    border-bottom: 1px solid $color--border;
+                }
+
+                    th,
+                    td {
+                        border-right: 1px solid $color--border;
+                        border-left: 1px solid $color--border;
+                        padding: 2px;
+                    }
+
+                    th {
+
+                    }
+
+                    td {
+                        vertical-align: top;
+                    }
+
+        .digital-magazines {
+            width: 100%;
+            overflow: scroll;
+        }
+
+            .digital-magazines ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                width: 100%;
+                padding-bottom: $gutter--narrow;
+            }
+
+                .digital-magazines li {
+                    display: table-cell;
+                    margin: 0;
+                    padding: 0 $gutter--skinny 0 0;
+                    width: 1%;
+                    white-space: nowrap;
+                    text-align: center;
+                }
+
+                    digital-magazines li:last-of-type {
+                        padding-right: none;
+                    }
+
+                    .digital-magazines a {
+                        position: relative;
+
+                        text-decoration: none;
+                        padding-bottom: $gutter--skinny;
+
+                    }
+
+                        .digital-magazines img {
+                            display: block;
+                            text-align: center;
+                            position: relative;
+                            left: 50%;
+
+                            @include transform3d(-50%,0,0);
+                        }

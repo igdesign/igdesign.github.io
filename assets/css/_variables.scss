@@ -13,6 +13,16 @@ $color--paypal: #ffb900;
 $color--paypal-light: #179bd7;
 $color--paypal-dark: #253b80;
 
+$color--darkest: #000000;
+$color--darker: #333333;
+$color--dark: #666666;
+$color--neutral: #999999;
+$color--light: #cccccc;
+$color--lighter: #e6e6e6;
+$color--lightest: #ffffff;
+
+$color--border: #f2f2f2;
+
 $gutter--normal: 20px;
 $gutter--narrow: 10px;
 $gutter--skinny:  5px;
@@ -25,13 +35,13 @@ $fa-font-path: "../fontawesome/fonts" !default;
 
 $font-weight: 200;
 
-$font-size--huge:  24.75px;
-$font-size--large: 21px;
-$font-size--big: 16.5px;
+$font-size--huge:  27.355px;
+$font-size--large: 21.875px;
+$font-size--big: 17.5;
 $font-size: 14px;
-$font-size--small: 11px;
-$font-size--tiny: 9.333px;
-$font-size--micro: 7.333px;
+$font-size--small: 11.2px;
+$font-size--tiny: 8.96px;
+$font-size--micro: 7.168px;
 
 $font--sans-serif: 'Open Sans', sans-serif;
 $font--serif: 'Merriweather', serif;
