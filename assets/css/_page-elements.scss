@@ -1,8 +1,14 @@
 article {
     padding: 0 $gutter--narrow;
+    width: 100%;
+    margin: 0 auto;
 
     @include media-query($medium, min, width) {
         padding: 0 $gutter--normal;
+    }
+
+    @include media-query($large, min, width) {
+        max-width: 1024px;
     }
 }
 

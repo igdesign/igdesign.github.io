@@ -2919,10 +2919,15 @@ body {
   transform: translate3d(-50%, 0, 0); }
 
 article {
-  padding: 0 10px; }
+  padding: 0 10px;
+  width: 100%;
+  margin: 0 auto; }
   @media (min-width: 768px) {
     article {
       padding: 0 20px; } }
+  @media (min-width: 1024px) {
+    article {
+      max-width: 1024px; } }
 
 @media (min-width: 768px) {
   .section-content--columns {
