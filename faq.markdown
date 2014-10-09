@@ -4,8 +4,12 @@ permalink: /faqs/index.html
 class: faqs
 ---
 
+<article markdown="1">
+
 # Frequently Asked Questions
 
+
+<section markdown="1">
 ## General Inquiries
 
 What is your general contact information?
@@ -20,7 +24,9 @@ I am having difficulty understanding my invoice, who do I contact?
 What payments are accepted to pay for my advertisement?
 : Cheque is accepted and made out to Inside Golf Inc, as well we accept Visa, MasterCard and American Express
 
+</section>
 
+<section markdown="1">
 ## Advertising
 
 What's the difference between bleed and non-bleed advertisement?
@@ -54,8 +60,9 @@ Will I get a proof of my advertisement when I send materials?
 : Yes, if you submit materials for an advertisement we will send you a proof so you can see the final version, however, we do not send out proofs for ads submitted.
 I submitted my advertisement but I haven't received a response, is there something wrong with it?
 : We will let you know we received the advertisement but if you haven't received a response then the designer has approved the advertisement for use. If the ad is to the incorrect specs we will let you know to re-submit a new one.
+</section>
 
-
+<section markdown="1">
 ## Website
 
 How do I register for the newsletter?
@@ -86,8 +93,9 @@ Whom do I contact if I am having problems with this site?
 
 How can I find a specific story on your website?
 : Due to the shear volume of content we have, it's difficult to find certain stories, if you know the title, subject of the story, or author please send an email to ed-coord@insidegolf.ca with your request and we will try to provide you with the link to the story.
+</section>
 
-
+<section markdown="1">
 ## Editorial
 
 Where do I send press releases?
@@ -101,8 +109,9 @@ How can I submit revisions for a paid editorial proof I received?
 
 How do I become a writer for Inside Golf?
 : Please contact [Jeff Sutherland](mailto:jeff@igdesign.ca) for inquiries about writing for Inside Golf.
+</section>
 
-
+<section markdown="1">
 ## Distribution
 
 How can I be removed from your distribution list?
@@ -116,3 +125,6 @@ My address is incorrect, how can I update my address on file?
 
 The person that's being addressed the magazine is no longer with the company, how can I update my file?
 : If you would like to update contacts on your distribution record please call us toll free at 800-764-6537 and provide us with your company name and we will update your company record.
+</section>
+
+</article>

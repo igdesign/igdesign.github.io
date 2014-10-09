@@ -1,0 +1,16 @@
+.site-head__bg {
+
+}
+
+.site-logo--specs {
+    background-image: url(/assets/images/igdp-logo.png);
+}
+
+h3 {
+
+    & + ul {
+        column-count: 2;
+        list-style-position: inside; // fix for list bullets disappearing in webkit
+        padding-left: $gutter--skinny;
+    }
+}

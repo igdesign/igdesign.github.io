@@ -6,6 +6,35 @@
     background-image: url(/assets/images/wcta-logo.png);
 }
 
-.wcta {
+.wcta {}
 
-}
+    .wcta-online,
+    .wcta-newsletter {
+        @extend %clearfix;
+    }
+
+        .wcta-online .image,
+        .wcta-newsletter .image {
+            @extend .hidden-xs;
+
+            float: left;
+            margin-right: $gutter--normal;
+            width: 300px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .wcta-online content {
+
+        }
+
+        .wcta-online .table-wrapper,
+        .wcta-newsletter .table-wrapper {
+            @include media-query($medium, min, width, screen) {
+                width: auto;
+                min-width: inherit;
+            }
+        }
+

@@ -4,6 +4,8 @@ permalink: /contact/index.html
 class: contact
 ---
 
+<article markdown="1">
+
 # Contact Us
 
 ## Inside Golf Inc.
@@ -20,6 +22,8 @@ Fax
 : +1 (250) 709-2141
 
 
+<div class="address" markdown="1">
+
 ### Office & Courier Address
 
 60 Ingram St.  
@@ -31,3 +35,7 @@ Duncan, BC  V9L 1N7
 
 PO Box 248  
 Duncan, BC  V9L 3X3
+
+</div>
+
+</article>

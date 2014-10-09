@@ -1,0 +1,37 @@
+.site-logo--contact {
+    background-image: url(/assets/images/igdp-logo.png);
+}
+
+.contact {}
+
+    .contact article {
+        text-align: center;
+    }
+
+    .contact dl {
+
+
+        @include media-query($xs, min, width, screen) {
+            column-count: 3;
+        }
+    }
+
+    .contact .address {
+        margin-top: $gutter--normal;
+
+        @include media-query($xs, min, width, screen) {
+            column-count: 2;
+        }
+    }
+
+    .address h3 {
+        margin-bottom: $gutter--skinny;
+
+        @include media-query($xs, max, width, screen) {
+            margin-top: $gutter--normal;
+        }
+    }
+
+    .address p {
+        margin: 0;
+    }

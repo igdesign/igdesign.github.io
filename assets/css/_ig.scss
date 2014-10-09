@@ -5,3 +5,19 @@
 .site-logo--ig {
     background-image: url(/assets/images/ig-logo.png);
 }
+
+
+.specs {}
+
+
+    .specs dl {
+        column-count: 2;
+
+        @include media-query($medium, min, width, screen) {
+            column-count: 3;
+        }
+
+        @include media-query($large, min, width, screen) {
+            column-count: 4;
+        }
+    }

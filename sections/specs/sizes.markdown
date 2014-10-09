@@ -1,4 +1,4 @@
-### Magazine Ads
+### Magazine Ads <small>All dimensions in Inches with 300 resolution</small>
 
 1/12 Square
 : 2.25" x 2.25"
@@ -41,7 +41,7 @@ Full Page
 : Trim: 8.25" x 10.75"
 : Critical: 7.25" x 9.75"
 
-### Web Ads
+### Web Ads <small>All dimensions in pixels at 72 resolution</small>
 
 Leaderboard
 : 728px x 90px

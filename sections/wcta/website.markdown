@@ -1,8 +1,7 @@
 ## Website
 
-![](//placehold.it/300x557)
-
-[www.wcta-online.com](//wcta-online.com)
+<div class="content" markdown="1">
+[WCTA-Online.com](//wcta-online.com)
 
 Ads are purchased for 12 month periods starting December 1st of each year. Ads purchased after this date will be prorated to finish on November 30th
 
@@ -14,3 +13,4 @@ Category 2
 
 Category 3
 : seen on 25%+ of page loads
+</div>

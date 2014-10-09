@@ -32,7 +32,12 @@ class: wcta
     <h1>WCTA Online</h1>
 
 
-    <section>
+    <section  class="wcta-online">
+
+        <div class="image">
+            <img src="/assets/images/wcta-online.png">
+        </div>
+
         {% capture content %}{% include_relative sections/wcta/website.markdown %}{% endcapture %}
         {{ content | markdownify }}
 
@@ -41,7 +46,12 @@ class: wcta
     </section>
 
 
-    <section>
+    <section  class="wcta-newsletter">
+
+        <div class="image">
+            <img src="/assets/images/wcta-newsletter-truncated.jpg">
+        </div>
+
         {% capture content %}{% include_relative sections/wcta/newsletter.markdown %}{% endcapture %}
         {{ content | markdownify }}
 

@@ -2015,8 +2015,15 @@ th {
 .fa-meanpath:before {
   content: ""; }
 
+.wcta-online:after,
+.wcta-newsletter:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 @media screen and (max-width: 767px) {
-  .hidden-xs, .site-tagline {
+  .hidden-xs, .site-tagline, .wcta-online .image,
+  .wcta-newsletter .image {
     display: none !important; } }
 
 @media screen and (min-width: 768px) {
@@ -2920,34 +2927,27 @@ body {
 
 article {
   padding: 0 10px;
-  width: 100%;
   margin: 0 auto; }
   @media (min-width: 768px) {
     article {
       padding: 0 20px; } }
   @media (min-width: 1024px) {
     article {
-      max-width: 1024px; } }
+      max-width: 1024px;
+      padding: 0; } }
 
 @media (min-width: 768px) {
   .section-content--columns {
     -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-    -webkit-column-rule: 1px outset #f2f2f2;
-       -moz-column-rule: 1px outset #f2f2f2;
-            column-rule: 1px outset #f2f2f2;
-    -webkit-column-gap: 20px;
-       -moz-column-gap: 20px;
-            column-gap: 20px; } }
+       -moz-column-count: 2;
+            column-count: 2;
+    -webkit-column-fill: balance;
+       -moz-column-fill: balance;
+            column-fill: balance; } }
 
 .section-content__item {
-  -webkit-column-break-inside: avoid;
-  -moz-column-break-inside: avoid;
-  -o-column-break-inside: avoid;
   column-break-inside: avoid;
-  border-bottom: 1px solid #f2f2f2;
-  margin-bottom: 10px; }
+  margin: 0; }
 
 .section-content__item:last-of-type {
   -webkit-column-span: all;
@@ -3052,7 +3052,79 @@ digital-magazines li:last-of-type {
 .site-logo--ig {
   background-image: url(/assets/images/ig-logo.png); }
 
+.specs dl {
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2; }
+  @media screen and (min-width: 768px) {
+    .specs dl {
+      -webkit-column-count: 3;
+         -moz-column-count: 3;
+              column-count: 3; } }
+  @media screen and (min-width: 1024px) {
+    .specs dl {
+      -webkit-column-count: 4;
+         -moz-column-count: 4;
+              column-count: 4; } }
+
 .site-logo--wcta {
   background-image: url(/assets/images/wcta-logo.png); }
+
+.wcta-online .image,
+.wcta-newsletter .image {
+  float: left;
+  margin-right: 20px;
+  width: 300px; }
+  .wcta-online .image img,
+  .wcta-newsletter .image img {
+    width: 100%; }
+
+@media screen and (min-width: 768px) {
+  .wcta-online .table-wrapper,
+  .wcta-newsletter .table-wrapper {
+    width: auto;
+    min-width: inherit; } }
+
+.site-logo--specs {
+  background-image: url(/assets/images/igdp-logo.png); }
+
+h3 + ul {
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+  list-style-position: inside;
+  padding-left: 5px; }
+
+.site-logo--faqs {
+  background-image: url(/assets/images/igdp-logo.png); }
+
+.site-logo--contact {
+  background-image: url(/assets/images/igdp-logo.png); }
+
+.contact article {
+  text-align: center; }
+
+@media screen and (min-width: 480px) {
+  .contact dl {
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3; } }
+
+.contact .address {
+  margin-top: 20px; }
+  @media screen and (min-width: 480px) {
+    .contact .address {
+      -webkit-column-count: 2;
+         -moz-column-count: 2;
+              column-count: 2; } }
+
+.address h3 {
+  margin-bottom: 5px; }
+  @media screen and (max-width: 480px) {
+    .address h3 {
+      margin-top: 20px; } }
+
+.address p {
+  margin: 0; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,33 +1,35 @@
 <nav class="site-nav"
      id="js-site-nav">
     <ul class="site-nav__list">
-        <li class="site-nav__item  site-nav__item--igdesign  site-nav__item--active">
+        <li class="site-nav__item  site-nav__item--igdesign  {% if page.class == 'home' %}site-nav__item--active{% endif %}">
             <a class="site-nav__link"
                href="/">iG Design &amp; Publishing</a>
         </li>
-        <li class="site-nav__item">
+        <li class="site-nav__item  {% if page.class == 'ig' %}site-nav__item--active{% endif %}">
             <a class="site-nav__link"
                href="/ig">Inside Golf</a>
         </li>
-        <li class="site-nav__item">
+        <li class="site-nav__item  {% if page.class == 'iggd' %}site-nav__item--active{% endif %}">
             <a class="site-nav__link"
                href="/iggd">International Golfer's Guide</a>
         </li>
-        <li class="site-nav__item">
+        <li class="site-nav__item  {% if page.class == 'wcta' %}site-nav__item--active{% endif %}">
             <a class="site-nav__link"
                href="/wcta">WCTA</a>
         </li>
-        <li class="site-nav__item">
+        <li class="site-nav__item  {% if page.class == 'specs' %}site-nav__item--active{% endif %}">
             <a class="site-nav__link"
                href="/specs">Ad Specifications</a>
         </li>
-        <li class="site-nav__item">
+        <li class="site-nav__item  {% if page.class == 'faqs' %}site-nav__item--active{% endif %}">
             <a class="site-nav__link"
                href="/faqs">FAQs</a>
         </li>
-        <li class="site-nav__item  site-nav__item--contact">
+        <li class="site-nav__item  site-nav__item--contact  {% if page.class == 'contact' %}site-nav__item--active{% endif %}">
             <a class="site-nav__link"
                href="/contact">Contact Us</a>
         </li>
     </ul>
 </nav>
+
+

@@ -3,7 +3,7 @@
 <div class="digital-magazines" markdown="1">
 
 + [Inside Golf: Travel 2013 ![](//placehold.it/220x283)](# "Inside Golf: Travel 2013")
-+ [Inside Golf: Spring 2014 ![](//placehold.it/220x283)](# "Inside Golf: Spring 2014")
-+ [Inside Golf: Fall 2014 ![](//placehold.it/220x283)](# "Inside Golf: Fall 2014")
++ [Inside Golf: Spring 2014 ![](/assets/images/covers/ig1404.jpg)](# "Inside Golf: Spring 2014")
++ [Inside Golf: Fall 2014 ![](/assets/images/covers/ig1408.jpg)](# "Inside Golf: Fall 2014")
 
 </div>
